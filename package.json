@@ -10,11 +10,21 @@
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.0"
   },
+  "devDependencies": {
+    "cypress": "3.8.1",
+    "start-server-and-test": "1.9.1"
+  },
   "scripts": {
     "start": "react-scripts start",
+    "start-server": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build-e2e-image": "docker build -t cypress-docker-parallel-e2e -f Dockerfile .",
+    "run-e2e-parallel": "docker-compose up --scale cypress-docker-parallel-e2e=2",
+    "ci-check": "npm run build-e2e-image && npm run run-e2e-parallel",
+    "cypress": "cypress run --browser chrome --parallel --record --key d94dd5d8-fe6f-46d3-aec2-f8cdd3d01712 --ci-build-id 1.0.2",
+    "ci": "start-server-and-test start-server http-get://localhost:3000 cypress"
   },
   "eslintConfig": {
     "extends": "react-app"

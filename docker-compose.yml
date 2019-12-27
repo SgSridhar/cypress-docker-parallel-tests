@@ -1,5 +1,5 @@
 version: "3.6"
 
 services:
-  vimana-e2e:
-    image: cypress-docker-parallel-tests:latest
+  cypress-docker-parallel-e2e:
+    image: cypress-docker-parallel-e2e:latest

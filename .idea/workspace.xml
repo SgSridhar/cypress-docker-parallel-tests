@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d156327-7240-4d8e-aba4-69c4625973b8" name="Default Changelist" comment="" />
+    <list default="true" id="5d156327-7240-4d8e-aba4-69c4625973b8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/integration/A.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/integration/B.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Renderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1VY9Oy03rmGrZX1T0kRF1sv4lwa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,12 +32,75 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.run-e2e-parallel">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="build-e2e-image" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build-e2e-image" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="ci-check" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="ci-check" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="run-e2e-parallel" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="run-e2e-parallel" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.run-e2e-parallel" />
+        <item itemvalue="npm.build-e2e-image" />
+        <item itemvalue="npm.ci-check" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -44,8 +124,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577419132436</updated>
-      <workItem from="1577419134341" duration="246000" />
+      <workItem from="1577419134341" duration="5600000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1020" height="951" key="GridCell.Tab.0.bottom" timestamp="1577425030864">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1020" height="951" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1577425030864" />
+    <state width="1020" height="951" key="GridCell.Tab.0.center" timestamp="1577425030862">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1020" height="951" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1577425030862" />
+    <state width="1020" height="951" key="GridCell.Tab.0.left" timestamp="1577425030862">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1020" height="951" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1577425030862" />
+    <state width="1020" height="951" key="GridCell.Tab.0.right" timestamp="1577425030863">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1020" height="951" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1577425030863" />
+    <state x="428" y="276" key="IDE.errors.dialog" timestamp="1577422067782">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="428" y="276" key="IDE.errors.dialog/0.0.1680.1050@0.0.1680.1050" timestamp="1577422067782" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1577424204820">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1577424204820" />
   </component>
 </project>
