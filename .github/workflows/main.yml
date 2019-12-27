@@ -3,6 +3,11 @@ on: [push]
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        # run 3 copies of the current job in parallel
+        containers: [1, 2]
+
     steps:
       - name: Checkout
         uses: actions/checkout@v1
@@ -12,3 +17,9 @@ jobs:
           start: npm start
           # quote the url to be safe against YML parsing surprises
           wait-on: 'http://localhost:3000'
+          record: true
+          parallel: true
+          group: 'Actions example'
+        env:
+          # pass the Dashboard record key as an environment variable
+          CYPRESS_RECORD_KEY: d94dd5d8-fe6f-46d3-aec2-f8cdd3d01712
